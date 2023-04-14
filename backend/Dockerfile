@@ -3,3 +3,4 @@ LABEL maintainer="Ivan Kapustin"
 WORKDIR /var/app
 COPY . .
 RUN pip install -r requirements.txt
+WORKDIR src
